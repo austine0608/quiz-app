@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+    <title>akemfa Quiz App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h4 id="finalScore">0</h4>
+            <form class="end-form-container">
+                <h5 id="end-text">Enter your name below to save your score</h5>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" >Save</button>
+            </form>
+            <a href="game.html" class="btn" style="cursor:pointer;box-shadow: 0 0.4rem 1.4rem p 
+            rgba(8,114,244,0.5);transition: transform 150ms;transform: scale(1.03);">Play Again</a>
+            <a href="index.html" class="btn">Go to Home<i class="fa fa-home"></i></a>
+        </div>
+    </div>
+
+<script type="text/javascript" src="end.js"></script>
+</body>
+</html>
